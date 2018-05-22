@@ -10,5 +10,7 @@ call ConfigLoader.bat
 
 call MenuLoader.bat
 
-
+if "%OS%" == "Windows_NT" (
+	endlocal
+)
 
